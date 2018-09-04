@@ -44,6 +44,7 @@ fn do_download(dirname: &str, filename: &str, url: &str) {
 }
 
 fn imagenet_download(url_list: &str) {
+
     let mut contents = String::new();
     {
         let mut f = File::open(url_list).unwrap();
