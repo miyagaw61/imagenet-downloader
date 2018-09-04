@@ -1,0 +1,9 @@
+[package]
+name = "imagenet-downloader"
+version = "0.0.1"
+authors = ["miyagaw61 <miyagaw61@gmail.com>"]
+
+[dependencies]
+clap = "*"
+regex = "*"
+reqwest = "*"
